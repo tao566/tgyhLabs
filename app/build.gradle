@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.application'
-    id 'maven-publish'
+
 }
 
 android {
@@ -28,25 +28,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-/*
-afterEvaluate{
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId 'com.github.tao566'
-                artifactId 'widght'
-                version '1.0'
-            }
-        }
-        repositories {
-            maven {
-                url "https://jitpack.io"
-            }
-        }
-    }
-}
-*/
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
