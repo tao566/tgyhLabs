@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgress">
+        <attr name="cradius" format="dimension"/>
+        <attr name="ccolor" format="color"/>
+        <attr name="clineWidth" format="dimension"/>
+        <attr name="android:progress"/>
+        <attr name="android:textSize"/>
+    </declare-styleable>
+    <declare-styleable name="ReviewProgress">
+        <attr name="color" format="color"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="android:progress"/>
+        <attr name="android:textSize"/>
+    </declare-styleable>
+
+</resources>
